@@ -20,7 +20,7 @@ It is not a replacement for an atomic-fact store, a vector memory service, or an
 
 ## Install
 
-This package is not published to npm yet. Install it from a local checkout or a packed tarball.
+This package is not published to npm yet. Install it from a local checkout or a packed tarball. The prebuilt `v0.1.0` tarball is attached to the [GitHub release](https://github.com/yinguobing/dsh-memory-index/releases/tag/v0.1.0).
 
 From the local checkout:
 

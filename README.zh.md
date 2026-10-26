@@ -18,7 +18,7 @@
 
 ## 安装
 
-目前还没有发布到 npm。用本地目录或打包后的 tarball 安装。
+目前还没有发布到 npm。用本地目录或打包后的 tarball 安装；`v0.1.0` 的预打包 tarball 在 [GitHub Release](https://github.com/yinguobing/dsh-memory-index/releases/tag/v0.1.0)。
 
 本地目录：
 
