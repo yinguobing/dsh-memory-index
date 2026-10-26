@@ -1,4 +1,4 @@
 node_modules/
 *.tgz
-!dist/*.tgz
+dist/
 .memory/

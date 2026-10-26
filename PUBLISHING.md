@@ -10,7 +10,7 @@ Decisions:
 - Name: **`dsh-memory-index`**
 - License: **MIT**
 - Registry: not published; no npm login required for the local tarball
-- Local artifact: `dist/dsh-memory-index-0.1.0.tgz`
+- Local artifact: the GitHub Release asset `dsh-memory-index-0.1.0.tgz` (the local `dist/` copy is untracked)
 
 ## Name candidates
 
@@ -44,7 +44,7 @@ If any future change copies code from OpenClaw, preserve its MIT copyright notic
 3. Confirm the packed tarball contains no `.memory/` database, personal paths, credentials, or test fixtures.
 4. `npm pack --pack-destination dist` and record the SHA-256.
 5. Install the tarball into an isolated profile with `indexDb: ':memory:'` and boot once.
-6. Keep `dist/dsh-memory-index-0.1.0.tgz` as the local artifact; verify it with `cd dist && sha256sum -c SHA256SUMS`.
+6. Keep `dist/dsh-memory-index-0.1.0.tgz` locally for verification; do not commit `dist/`. Attach the tarball and checksum to the GitHub Release.
 
 ## If publishing to npm later
 
