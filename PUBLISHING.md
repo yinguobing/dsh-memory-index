@@ -1,6 +1,8 @@
 # Publishing notes
 
-Status: **npm publication deferred on 2026-10-26.** The package is distributed locally as a tarball for now.
+Status: **GitHub public, npm publication deferred on 2026-10-26.** The package is distributed locally as a tarball for now.
+
+Repository: <https://github.com/yinguobing/dsh-memory-index>
 
 Decisions:
 
