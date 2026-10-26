@@ -3,6 +3,7 @@
 Status: **GitHub public, npm publication deferred on 2026-10-26.** The package is distributed locally as a tarball for now.
 
 Repository: <https://github.com/yinguobing/dsh-memory-index>
+Release: <https://github.com/yinguobing/dsh-memory-index/releases/tag/v0.1.0>
 
 Decisions:
 
