@@ -1,0 +1,15 @@
+# dsh-memory-index bundle patch.
+#
+# `workspace` is the directory that contains MEMORY.md, memory/, wiki/, and
+# archive/sessions/. The default below uses the Harness process directory so
+# installation does not guess a personal path; override it in your profile.
+# The safe defaults are read-only and no startup recall.
+- insert:
+    - id: memory-index
+      name: dsh-memory-index
+      config:
+        workspace: !!js process.cwd()
+        indexDb: .memory/index.sqlite
+        writeMode: readonly
+        autoRecall: off
+        buildOnStart: false

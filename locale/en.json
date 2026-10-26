@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Memory Index",
+    "description": "Full-text index and search for an existing Markdown memory tree, with optional writes to daily notes and a core memory file."
+  }
+}
